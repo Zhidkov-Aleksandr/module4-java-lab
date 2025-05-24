@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/80fa265d-ae75-4628-9117-c54911be95c6)
+
+
+
+
 <h1 align="center">
   🐣  **User-API** — мини-REST-сервис на Spring Boot
 </h1>
@@ -50,7 +55,6 @@ cd user-api
 ```json
 Копировать
 Редактировать
-[
   {
     "id": 1,
     "firstName": "Ada",
@@ -58,7 +62,6 @@ cd user-api
     "role": "DEVELOPER"
   },
   ...
-]
 </details>
 ```
 
@@ -102,15 +105,3 @@ src
 | `spring.jpa.hibernate.ddl-auto` | `update`              | Авто-создание схемы               |
 | `spring.h2.console.enabled`     | `true`                | Веб-консоль H2 на **/h2-console** |
 ```
-
-
-🛤️ Дорожная карта
-☑️ DTO + MapStruct
-
-☑️ Валидация (@Valid) и global error-handler
-
-🧪 Интеграционные тесты с Testcontainers
-
-🐳 Docker-образ и GitHub Actions CI/CD
-
-Pull-request’ы приветствуются! 🎉
